@@ -28,7 +28,6 @@ public class DebitCardPayTest {
         SelenideLogger.removeListener("allure");
     }
 
-
     @BeforeEach
     public void setup() {
         mainPage = open("http://localhost:8080/", MainPage.class);
